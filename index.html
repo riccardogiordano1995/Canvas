@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Canvas</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body style="background-color: #e6e6e6">
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+    <br>
+          <h1 style="font-size: 60px;"> Canvas </h1>
+<br>
+    <p>Breve introduzione:</p>
+
+    <p>Canvas è forse l’elemento che ha destato il maggior interesse della specifica HTML5, vuoi perché frutto dell’evoluzione multimediale che il Web ha passato negli anni 2000, vuoi per la competizione con plugin ben innestati sul mercato. Sia come sia, non si tratta di una novità dell’ultimo momento.</p> <br>
+
+    <h4>Nel 2004 il Canvas è Apple</h4>
+
+    <p>La prima apparizione di questo elemento HTML è da ricercarsi nel 2004. Apple decide di incrementare le funzionalità del suo MacOs X WebKit e sforna una serie di nuove feature a disposizione degli sviluppatori. Tra queste spicca il canvas: un elemento che offre la possibilità di creare uno spazio all’interno di una pagina web sul quale insistere con delle API di disegno bitmap.</p>
+
+
+<p>La nascita del canvas sembra sia in realtà dovuta alle necessità dei widget della dashboard del sistema operativo Os X, primi a beneficiare di questo nuove API.</p>
+    <br>
+    <h4>Canvas oggi è HTML5</h4> 
+
+    <p>Negli anni seguenti questo elemento viene accettato ed adottato sia da altri browser che dal WHATWG e dal W3C diventando di fatto parte delle nuove specifiche HTML5. Ad oggi tutte le ultime versioni dei più famosi browser sul mercato ( IE, Firefox, Chrome, Opera) supportano in modo abbastanza uniforme questo set di API.</p>
+    <br>
+    <h4>Canvas 3D …con WebGL</h4> 
+
+    <p>Arriviamo a Marzo 2011, altra data interessante nella storia di questo elemento: il gruppo no-profit Khronos rilascia la versione 1.0 della specifiche WebGL, un set di API Javascript che consentono la definizione di ambienti tridimensionali e l’interazione tra essi, la pagina circostante e l’utente.</p>
+
+
+    <p>Piuttosto che creare un nuovo elemento HTML a supporto di queste specifiche si decide (saggiamente) di definire due modalità di utilizzo del canvas: 2D e 3D. Lo sviluppatore che intende avvalersi di un canvas può quindi scegliere se operare in modalità (detta contesto) 2D o 3D.</p>
+
+    <br><br><br>
+
+    <h4>Cos'è HTML Canvas?</h4>
+
+    <p>L'elemento "canvas"  è un elemento che permette di disegnare all'interno di un codice HTML. <br>  Esso ci permette di creare un container esclusivamente per inserire elementi grafici e viene compilato spesso tramite javascript.</p>
+
+    <br> <p>Esempio 1</p>
+
+    <canvas id="linea" width="400" height="200" style="border:1px solid #d3d3d3;"></canvas>
+    <br><br><br>
+    <p>Esempio 2</p>
+    <canvas id="cerchio" width="400" height="200" style="border:1px solid #d3d3d3;"></canvas>
+    <br><br><br>
+    <p>Esempio 3</p>
+    <canvas id="text" width="400" height="200" style="border:1px solid #d3d3d3;"></canvas>
+    <br><br><br>
+    <p>Esempio 4</p>
+    <canvas id="grad1" width="400" height="200" style="border:1px solid #d3d3d3;"></canvas>
+    <br><br><br>
+    <p>Esempio 5</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5">
+    <p>Immagine da usare:</p>
+      <img id="pls" src="https://cdn.meme.am/cache/instances/folder534/400x/16071534.jpg" alt="The Scream" width="400" height="400">
+
+        </div>
+        <div class="col-sm-5">
+                <p>Canvas da popolare:</p>
+      <canvas id="img" width="400" height="400"
+      style="border:1px solid #d3d3d3;"></canvas>
+      <br>
+        </div>
+        <div class="col-sm-2"> <br><br>
+                <button onclick="myCanvas()" class="btn btn-default" type="submit">Premi!</button>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+        <p>Altri utilizzi canvas</p>
+    <ul>
+        <li><a href="http://codepen.io/eltonkamami/pen/ECrKd" target="_blank">Particellari</a></li>
+        <li><a href="http://codepen.io/soulwire/pen/Ffvlo" target="_blank">30.000 Particelle</a></li>
+        <li><a href="canvas.html" target="_blank">DA APRIRE ALL'ULTIMOOOOO</a></li>
+    </ul>
+  <br><br><br>
+
+    </div>
+  </div>
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script/script.js" type="text/javascript"></script>
+  </body>
+</html>
